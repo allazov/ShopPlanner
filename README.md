@@ -1,36 +1,40 @@
-# Shopping Recommendation System
+# ShopPlanner
 
-Hello there! 👋 
+The ShopPlanner is a Python-based program designed to manage shopping lists and help users plan their shopping trips more efficiently. The system allows the user to add, remove, view, and manage items within shopping lists.
 
-Welcome to the shopping recommendation system. This is a simple Python program that aids in your shopping experience by recommending products based on your budget and preferences. This tool is handy when you are still deciding what to buy or overwhelmed by the numerous options in online stores.
+## Table of Contents
+1. [Features](#Features)
+2. [Getting Started](#Getting-Started)
+3. [Usage](#Usage)
+4. [Contribution](#Contribution)
+5. [License](#License)
 
-## How Does It Work?
+## Features
+- **Adding Item**: You can add items to your shopping list, specifying the name and the quantity.
+- **Removing Item**: You can remove any item from the shopping list.
+- **Viewing Shopping List**: You can view the details of the current shopping list.
+- **Empty Shopping List**: You can empty the entire shopping list at once.
+- **Shopping List Stats**: You can view statistics of your shopping list, like the total number of items.
 
-This program first asks you to input your budget for the shopping. Next, it inquires about the items you are interested in purchasing and the quantity for each item. It also considers your shopping strategy, be it 'economical' or 'premium'.
+## Getting Started
+To use the ShopPlanner, you need Python installed on your machine.
 
-Based on your input, the program provides recommendations from a pre-defined list of products. The offers are made according to your stated budget, the number of each item you wish to purchase, and your shopping strategy. 
+### Prerequisites
+- Python (3.x recommended)
 
-If you lean towards the 'economical' strategy, the system will recommend the cheapest options, while a 'premium' strategy will yield the most expensive options.
+### Installation
+1. Clone the repository: `git clone https://github.com/username/reponame.git` (replace with the actual URL of your repository)
+2. Navigate to the repository directory in your local system
+3. Run `python main.py` to start the system
 
-However, the fun continues! If your budget isn't sufficient for the items you wish to purchase, the program alerts you and provides the extra funding needed. You can then decide to increase your budget or skip the item. 
+## Usage
+When you run the system, a menu will be displayed asking you what action you would like to perform. You can choose to add items, remove items, view the shopping list, empty the shopping list, view shopping list stats, or exit the program.
 
-Lastly, it provides you with a summary of recommended products, the total cost, and the remaining budget.
+For item addition, you can input item details in the format `name,quantity`.
 
-## Why Was This Written?
+To remove an item or view details of a particular item, you must input the item's name.
 
-This project aims to make online shopping more accessible and more efficient for users. Offering personalized recommendations helps shoppers make better decisions and avoid the often overwhelming abundance of choices.
+## Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-With an easy-to-use interactive system, you don't need any technical knowledge to use it. So go ahead, try it out, and happy shopping! 🛍️
-
-## How to Use This?
-
-It's quite straightforward to use this system. Just run the Python script and follow the prompts. Enter your budget, the items you wish to purchase (along with their quantities), and your preferred shopping strategy. Sit back and let the program guide you through a better shopping experience.
-
-## Contribute
-
-If you've got any enhancements or suggestions up your sleeve, don't hesitate to fork the project and create a pull request. We're always open to fresh ideas!
-
-So, what are you waiting for? Let's make shopping a breeze! 🎉
-
-## ⚠️Attention
-There are some corrections to the product selection process, making it Azerbaijani (language)-friendly. As some products are defined or typed differently by users. You are free to delete these corrections and adapt your own implementation. The main purpose is to built logic of the Planner.
+Please make sure to update tests as appropriate.
