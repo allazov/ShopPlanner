@@ -31,3 +31,6 @@ It's quite straightforward to use this system. Just run the Python script and fo
 If you've got any enhancements or suggestions up your sleeve, don't hesitate to fork the project and create a pull request. We're always open to fresh ideas!
 
 So, what are you waiting for? Let's make shopping a breeze! 🎉
+
+## ⚠️Attention
+There are some corrections to the product selection process, making it Azerbaijani (language)-friendly. As some products are defined or typed differently by users. You are free to delete these corrections and adapt your own implementation. The main purpose is to built logic of the Planner.
